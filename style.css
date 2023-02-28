@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik+Iso&family=Tilt+Prism&family=Tourney:ital,wght@0,700;1,600&display=swap');
+
+:root{
+    --font-family: 'Rampart One', cursive;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: cadetblue;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+.box{
+    min-width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+div.box h1{
+    font-size: 22px;
+    color: rgb(16, 24, 32);
+    margin: 15px 0;
+    font-family: var(--font-family);
+}
+
+div.box button{
+    background-color: rgb(105, 133, 209);
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+div.box button:hover{
+    background-color: rgb(55, 122, 160);
+    transition: 0.3s;
+    font-size: 16.5px;
+}
